@@ -26,7 +26,7 @@ Add git repo
 and use composer install
 
 ```
-composer require F5/CatFacts dev-main
+composer require f5/module-cat-facts dev-main
 ```
 
 # Demo
