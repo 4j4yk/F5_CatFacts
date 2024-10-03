@@ -1,0 +1,13 @@
+<?php
+/** @var \F5\CatFacts\Block\CatFact $block */
+
+try {
+    $catFact = $block->getCatFact();
+} catch (JsonException $e) {
+    $catFact = 'purrrrrrrrrr !!!';
+}
+?>
+
+<div class='cat-fact'>
+    <strong>Random Cat Fact: </strong><?php echo $block->escapeHtml($catFact); ?>
+</div>
